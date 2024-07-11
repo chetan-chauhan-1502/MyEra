@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "sfDisplay";
+  src: url("./assets/fonts/SFPRODISPLAYMEDIUM.OTF");
+}
+
+@font-face {
+  font-family: "SF-Pro-Text-Regular";
+  src: url("./assets/fonts/SF-Pro-Text-Regular.otf");
+}
+
+.sf-display {
+  font-family: "sfDisplay";
+}
+
+:root {
+  --purple: #84129a;
+  --dusty-orange: #f27c2c;
+  --tomato: #f15a22;
+  --btn-gr-color: linear-gradient(
+    114deg,
+    var(--dusty-orange) 22%,
+    var(--tomato) 89%
+  );
+  --white-two: #ffffff;
+}
+
+body {
+  font-family: "SF-Pro-Text-Regular";
+  background: #f2f2f2;
+}
+/* button Globel */
+
+.btn-color {
+  background: var(--btn-gr-color);
+}
+
+/* Font-color */
+.t-font-white {
+  color: #f9f9f9;
+}
+
+/* btn-back-color */
+.btn-main {
+  background-image: linear-gradient(105deg, #f27c2c 20%, #f15a22 82%);
+}
+
+/* regular box-shadow */
+.regular-shadow {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.shadow-in {
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Cancel Price Line */
+/* @media (min-width: 1024px) {
+  .container {
+    max-width: 1320px !important;
+  }
+} */
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px !important;
+  }
+}
+
+/* Cancel Price Line */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1280px !important;
+  }
+}
+
+/* Cancel Price Line */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1320px !important;
+  }
+}
+
+/* For DropDowns  */
+
+.dropdown_main {
+  transform: none !important;
+  inset: 0 !important;
+  position: relative !important;
+  top: -20px;
+  display: block;
+  z-index: 10;
+}
+
+.dropdown_main ul {
+  position: absolute;
+  left: -21px;
+  bottom: -98px;
+}
+
+.dropdown_main_search {
+  transform: none !important;
+  inset: 0 !important;
+  /* position: relative !important; */
+  top: -20px;
+  display: block;
+  z-index: 10;
+}
+.dropdown_main_search ul {
+  position: absolute;
+  left: 0px;
+  bottom: -119px;
+}
+.dropdown_main_search_topdeal {
+  transform: none !important;
+  inset: 0 !important;
+  /* position: relative !important; */
+  top: -20px;
+  display: block;
+  z-index: 10;
+}
+.dropdown_main_search_topdeal ul {
+  position: absolute;
+  left: 0px;
+  bottom: -118px;
+}
+
+/* For DropDowns  */
+
+/* MyProfile  */
+
+.arrow-color svg {
+  color: #008cff;
+}
+
+/* Hotel_List  */
+
+.hotel_list_bg {
+  background-image: linear-gradient(to bottom, #041422 27%, #144378);
+}
+.hotel_list_search {
+  background-image: linear-gradient(
+    101deg,
+    var(--dusty-orange) 2%,
+    var(--tomato) 104%
+  );
+}
+.hotel_list_backdrop_backdrop_filter {
+  -webkit-backdrop-filter: blur(35px);
+  backdrop-filter: blur(0px);
+}
+
+/* hotelList popularFilter  */
+
+.cl-custom-check {
+  display: none;
+}
+
+.cl-custom-check + .cl-custom-check-label {
+  /* Default style for unchecked state */
+  background-color: #ffffff;
+  color: #707070;
+  padding: 9px 13px;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 17px;
+  display: inline-block;
+  backface-visibility: hidden;
+  border: 1px solid #e7e7e7;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.cl-custom-check:checked + .cl-custom-check-label {
+  /* Style when the checkbox is checked */
+  background-color: #212121;
+  color: #ffffff; /* Adjust text color for better contrast */
+}
+
+/* HotelListCard cancel price for   */
+
+.hotel_List_price_cancel::before {
+  content: "";
+  width: 31px;
+  height: 1px;
+  border-top: 1px solid #eb2026;
+  transform: rotate(165deg);
+  position: absolute;
+  margin: 7px 0 0 2px;
+}
+
+

@@ -1,0 +1,398 @@
+.hidden {
+  display: none;
+}
+.cust_dropdown {
+  cursor: pointer;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px;
+}
+.cust_search {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: 0;
+  border-color: #ccc !important ;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.cust_search:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.holidayquotes_scroll::-webkit-scrollbar {
+  display: none !important;
+}
+
+.holidayquotes_scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* HOVER */
+
+.cust_dropdown:hover .hover-change-span {
+  color: #4a4a4a; /* Change this to your desired color */
+}
+
+.cust_dropdown:hover .hover-change-p {
+  color: #4a4a4a; /* Change this to your desired color */
+}
+
+.cust_dropdown:hover .city-p {
+  color: #000000; /* Chan
+    color: ; /* Chan
+    ge this to your desired color */
+}
+
+.hidden_datepicker {
+  display: none;
+}
+
+.dropdown-container select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Safari, Chrome, Opera */
+  -webkit-appearance: none;
+}
+
+/* for IE10 */
+.dropdown-container select::-ms-expand {
+  display: none;
+}
+
+/* top deals drop down */
+li:hover .bold {
+  font-weight: bold;
+  color: #000000;
+}
+.deals_dropdown li .icon,
+.deals_dropdown li .set-location {
+  display: none;
+}
+
+/* Show the elements on hover */
+.deals_dropdown li:hover .icon,
+.deals_dropdown li:hover .set-location {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+
+/* Traveller dropdown*/
+
+.traveller_select:focus {
+  outline-color: none !important;
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+.traveller_btn {
+  bottom: -20px;
+  padding: 8px 40px;
+  border-radius: 27px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 133px;
+  height: 34px;
+}
+/* For Dropdown styling (travellers part hotels and hotel+ flights )*/
+.box_shadow {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: var(--white-two);
+  border-radius: 3px;
+  border-color: transparent;
+  padding: 7px;
+  /* margin: 75px 30px 24px 318px; */
+  /* padding: 8px 12.7px 8px 15px; */
+}
+.box_shadow:focus {
+  outline-color: none;
+  border: transparent;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.applybox_btn_shadow {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+/* Flights + hotels */
+.cust_flight_dropdown {
+  cursor: pointer;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px;
+  padding-top: 15px !important ;
+}
+.cust_flight_search {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: 0;
+  border-color: #ccc !important ;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.cust_flight_search:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.cust_flight_dropdown:hover .hover-change-span {
+  color: #4a4a4a; /* Change this to your desired color */
+}
+
+.cust_flight_dropdown:hover .hover-change-p {
+  color: #4a4a4a; /* Change this to your desired color */
+}
+
+.cust_flight_dropdown:hover .city-p {
+  color: #000000;
+  font-weight: 500;
+}
+
+/* {date header background }*/
+.cust_date {
+  border-bottom-left-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+
+/* {Tooltip for date picker} */
+.tooltip-text {
+  /* visibility:; */
+  position: absolute;
+  z-index: 2;
+  width: 220px;
+  color: white;
+  font-size: 12px;
+  background-color: #84129a;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+.tooltip-text::before {
+  content: "";
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: #84129a;
+  padding: 5px;
+  z-index: 1;
+}
+
+#bottom_tooltip {
+  top: 0px;
+  left: -53px;
+}
+
+#bottom_tooltip::before {
+  top: -5%;
+  left: 78%;
+}
+
+.custom-gradient {
+  background-image: linear-gradient(to bottom, #84129a, #6f2c91);
+}
+
+.date-picker-custom .owl-stage {
+  width: 100%;
+}
+.date-picker-custom .owl-nav {
+  position: relative;
+}
+.date-picker-custom .owl-item {
+  width: 297px;
+}
+
+.date-picker-custom .owl-stage {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.date-picker-custom .owl-nav {
+  position: relative;
+}
+
+.date-picker-custom .owl-prev {
+  position: absolute;
+  bottom: 62px;
+  left: -29px;
+}
+
+.date-picker-custom .owl-nav .owl-prev .disabled {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.date-picker-custom .owl-nav .owl-prev:hover {
+  background: #ffffff !important;
+}
+
+.date-picker-custom .owl-nav .owl-prev span {
+  color: #000000;
+  font-size: 35px;
+  line-height: 24px;
+}
+
+.date-picker-custom .owl-next {
+  position: absolute;
+  bottom: 62px;
+  right: -3px;
+}
+
+.date-picker-custom .owl-nav .owl-next .disabled {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.date-picker-custom .owl-nav .owl-next:hover {
+  background: #ffffff !important;
+}
+
+.date-picker-custom .owl-nav .owl-next span {
+  color: #000000;
+  font-size: 35px;
+  line-height: 24px;
+}
+
+/* Shadow */
+
+.date-picker-custom .off-shadow {
+  width: 235px;
+  height: 208px;
+  padding: 170px 133px 14px 20px;
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 52%, #000);
+}
+
+.month-text li {
+  display: inline-block;
+  width: 70px;
+  margin-bottom: 2px;
+  
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #d6d6d6;
+
+  padding: 8px 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #707070;
+  text-decoration: none;
+  cursor: pointer;
+}
+.month-text li:focus {
+  border-color: #f27c2c;
+}
+.month-text li:hover {
+  border-color: #f27c2c;
+}
+.filter-text li {
+  display: inline-block;
+  background-color: #f9f9f9;
+  margin-bottom: 3px;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #d6d6d6;
+  padding: 9px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #707070;
+  text-decoration: none;
+  cursor: pointer;
+}
+.filter-text li:hover {
+  border-color: #f27c2c;
+}
+
+/* for top deal date specific picker  */
+
+.calendar-class {
+  position: relative;
+}
+.calendar-class .rdrMonthAndYearWrapper {
+  padding: 0 !important;
+  height: 0;
+  margin: 0;
+}
+.calendar-class .rdrMonthAndYearPickers {
+  display: none;
+}
+
+.calendar-class .rdrPprevButton {
+  position: absolute;
+  top: 0.9rem;
+  left: 20px;
+}
+.calendar-class .rdrNextButton {
+  position: absolute;
+  top: 0.9rem;
+  right : 20px ;
+}
+
+.calendar-class .rdrMonthName {
+  font-size: medium;
+  text-align: center !important;
+  color: #000000 !important;
+}
+/* for top deal date specific picker  */
+
+/* FOR TRAVELER ADULT COUNT  */
+span {
+  cursor: pointer;
+}
+.number {
+  margin: 100px;
+}
+.travel-count .minus,
+.plus {
+  width: 20px;
+  height: 20px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  padding: 8px 5px 8px 5px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.travel-count input {
+  height: 34px;
+  width: 100px;
+  text-align: center;
+  font-size: 26px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.travel-count ul {
+  boxshadow: "0 3px 6px 0 rgba(0, 0, 0, 0.16)";
+}
+
+.box_shadow_age {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: var(--white-two);
+  border-radius: 3px;
+  border-color: transparent;
+
+  /* margin: 75px 30px 24px 318px; */
+  /* padding: 8px 12.7px 8px 15px; */
+}
+
+.topdeal-dealtype {
+  position: relative !important;
+}
+
+.commonm {
+  transform: none !important;
+  inset: 0 !important;
+  /* position: relative !important; */
+  top: -20px;
+  display: block;
+  z-index: 10;
+}
+.dropdown_topdeal_search ul {
+  position: absolute;
+  left: 0px;
+  bottom: -103px;
+}

@@ -1,0 +1,28 @@
+.offer_slider .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: var(--tomato);
+}
+
+.offer_slider .owl-dot.active span {
+  background: var(--tomato) !important;
+}
+
+.offer-inner-continer .offer-tabs::before {
+  content: "";
+  width: 32px;
+  height: 7px;
+  margin: 7px 3px 11px 5px;
+  border-radius: 3.5px;
+  background-color: #84129a;
+  display: inline-block;
+}
+
+.offer-inner-continer .offer-tabs::after {
+  content: "";
+  width: 32px;
+  height: 7px;
+  margin: 7px 3px 11px 5px;
+  border-radius: 3.5px;
+  background-color: var(--tomato);
+  display: inline-block;
+}

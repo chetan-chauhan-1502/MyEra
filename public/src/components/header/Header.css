@@ -1,0 +1,124 @@
+/* For changing text color of span */
+.top_new_header li a.active {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.top_new_header li a {
+  font-weight:800;
+}
+
+/* For styling the ::before pseudo-element */
+.header_li_before.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -9px;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--purple);
+}
+
+.btn_search_cust {
+  position: absolute;
+  bottom: -20px;
+  padding: 10px 76px 11px 70px;
+  border-radius: 27px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.tab:active .svg-icon {
+  fill: red;
+}
+
+.tab-item:active .svg-icon,
+.tab-item:focus .svg-icon,
+.tab-item.active .svg-icon {
+  fill: red;
+}
+
+.login_slider .owl-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24%;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 17px;
+}
+
+.login_slider .owl-dots .owl-dot span {
+  width: 8px !important;
+  height: 8px !important;
+  margin: 5px 4px !important;
+}
+
+.login_slider .owl-nav button {
+  background-color: transparent !important;
+}
+
+.login_slider .owl-nav button span {
+  color: #fff;
+  display: block;
+  font-size: 22px;
+}
+
+.login_slider .owl-next {
+  position: absolute;
+  bottom: 4px;
+  right: 39%;
+  z-index: 1;
+}
+.login_slider .owl-prev {
+  position: absolute;
+  bottom: 4px;
+  left: 39%;
+  z-index: 1;
+}
+
+.login_slider .owl-dot.active span {
+  background-color: #fff !important;
+}
+
+.login_slider .owl-dot span {
+  background-color: #858788 !important;
+}
+
+.cust-login-p::before {
+  content: "";
+  border-bottom: 2px solid #d8d8d8;
+  width: 35%;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 9px;
+}
+.cust-login-p::after {
+  content: "";
+  border-bottom: 2px solid #d8d8d8;
+  width: 35%;
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 9px;
+}
+
+.login-shadow::before {
+  content: "";
+  width: 386px;
+  height: 542px;
+  display: inline-block;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.4;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}

@@ -1,0 +1,31 @@
+.upcoming_bg{
+    background-image: linear-gradient(to left, #7cc0cc, #60e3cc);
+}
+.cancel_bg{
+    background-image: linear-gradient(to right, #f0991a -1%, #f2cf4d 100%);
+}
+.complete_bg{
+    background-image: linear-gradient(to left, #b1b4bb, #cdcdcd);
+}
+.bg-btn{
+    background-image: linear-gradient(101deg, var(--dusty-orange) 6%, var(--tomato) 70%);
+}
+.shadow-btn{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+ 
+.myaccount-list p.active > span{
+    color:#84129a;
+} 
+.myaccount-list p.active{
+    position:relative;
+}
+.myaccount-list p.active::before{
+    background: #84129a;
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+} 

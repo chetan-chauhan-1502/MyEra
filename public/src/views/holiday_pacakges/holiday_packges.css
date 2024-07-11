@@ -1,0 +1,95 @@
+.bg-btn {
+  background-image: linear-gradient(
+    106deg,
+    var(--dusty-orange) 22%,
+    var(--tomato) 89%
+  );
+}
+
+.Holiday_slider .owl-nav {
+  position: absolute;
+  top: 143px;
+  left: 0;
+  right: 0;
+}
+
+.Holiday_slider .owl-nav .owl-prev {
+  position: absolute;
+  left: 25px;
+  top: -7px;
+  background-color: transparent !important;
+}
+
+.Holiday_slider .owl-nav .owl-prev .disabled {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Holiday_slider .owl-nav .owl-prev:hover {
+  background: transparent !important;
+}
+
+.Holiday_slider .owl-nav .owl-prev span {
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 24px;
+}
+
+.Holiday_slider .owl-nav .owl-next {
+  position: absolute;
+  right: 25px;
+  top: -7px;
+  background-color: transparent !important;
+}
+
+.Holiday_slider .owl-nav .owl-next .disabled {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Holiday_slider .owl-nav .owl-next:hover {
+  background: transparent !important;
+}
+
+.Holiday_slider .owl-nav .owl-next span {
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 24px;
+}
+
+.Holiday_slider .owl-carousel .owl-nav .owl-prev {
+  background-color: transparent !important;
+}
+.ul-dot {
+  list-style-type: none; /* Remove default bullet points */
+   /* Add space for the dot */
+
+}
+
+.ul-dot li::before {
+  content: "\2022"; /* Unicode character for bullet (•) */
+  color: inherit; /* Use parent color */
+  display: inline-block;
+  width: 1em; /* Adjust spacing between bullet and text */
+}
+ul.ul-right li {
+  position: relative; /* Ensure position context for absolute positioning */
+  list-style: none; /* Remove default bullet points */
+
+}
+ul.ul-right li::before {
+  content: "\2714"; /* Unicode for checkmark (✔) */
+  color: #007e7d; /* Color of the checkmark, same as the list text */
+}
+.box-shadow{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.45);
+}
+.owl-carousel .owl-dots {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+  margin: 5px;
+}

@@ -1,0 +1,55 @@
+.popular-holidays .owl-item {
+  width: 297px;
+}
+
+.popular-holidays .owl-nav {
+  position: absolute;
+  top: -71px;
+  right: 29px;
+}
+
+.popular-holidays .owl-nav .owl-prev {
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+  width: 36px;
+  height: 33px;
+  background: #ffffff;
+  margin: 0;
+}
+
+.popular-holidays .owl-nav .owl-prev .disabled {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.popular-holidays .owl-nav .owl-prev:hover {
+  background: #ffffff !important;
+}
+
+.popular-holidays .owl-nav .owl-prev span {
+  color: #f15a22;
+  font-size: 26px;
+  line-height: 24px;
+}
+
+.popular-holidays .owl-nav .owl-next {
+  border-radius: 0px 20px 20px 0px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+  width: 36px;
+  height: 33px;
+  background: #ffffff;
+  margin: 0;
+}
+
+.popular-holidays .owl-nav .owl-next .disabled {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.popular-holidays .owl-nav .owl-next:hover {
+  background: #ffffff !important;
+}
+
+.popular-holidays .owl-nav .owl-next span {
+  color: #f15a22;
+  font-size: 26px;
+  line-height: 24px;
+}

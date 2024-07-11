@@ -1,0 +1,62 @@
+.hotel_owlCarousel .owl-theme {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: aqua; */
+}
+.hotel_owlCarousel .owl-theme .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+
+.hotel_owlCarousel .owl-nav {
+  position: relative;
+  bottom: 270px;
+}
+
+.hotel_owlCarousel .owl-nav .owl-prev {
+  position: absolute;
+  left: 30px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+}
+.hotel_owlCarousel .owl-nav .owl-prev:hover{
+    background-color: #ffffff;
+}
+.hotel_owlCarousel .owl-nav .owl-next:hover{
+    background-color: #ffffff;
+}
+
+.hotel_owlCarousel .owl-nav .owl-prev span {
+  font-size: 30px;
+  color: #f15a22;
+}
+
+
+.hotel_owlCarousel .owl-nav .owl-next {
+  position: absolute;
+  right: 30px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+.hotel_owlCarousel .owl-nav .owl-next span {
+  font-size: 30px;
+  color: #f15a22;
+}
